@@ -43,9 +43,9 @@
     
         <!-- header Section end -->
         <!-- Main Section start-->
-        <main>
+        <main class="bg-slate-100">
         <!-- product card start 1 -->
-        <section class="flex mt-28">
+        <section class="lg:flex lg:flex-row mt-28 flex-col">
         <section class="">
             
             <div class="w-9/12 mx-auto">
@@ -54,7 +54,7 @@
                     <h2 class="text-black text-5xl mb-12">Kitchenware</h2>
                     <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <!-- first Card start-->
-                        <div class="card bg-base-100 shadow-xl">
+                        <div id="first-card" class="card bg-base-100 shadow-xl">
                             <div class="bg-slate-200 w-9/12 mx-auto mt-8">
                             <figure class="px-10 pt-10">
                               <img src="./images/prod1.png" alt="Shoes" class="rounded-xl" />
@@ -69,14 +69,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 class="card-title text-black text-2xl text-center font-semibold">K. Accessories</h2>
-                              <p class="text-black opacity-50 text-2xl font-normal">39.00 TK</p>
+                              <h2 id="product1-name" class="card-title text-black text-2xl text-center font-semibold">K. Accessories</h2>
+                              <p id="product1-price" class="text-black opacity-50 text-2xl font-normal">39.00 TK</p>
                               
                             </div>
                           </div>
                         <!-- first Card end-->
                          <!-- second Card start-->
-                         <div class="card bg-base-100 shadow-xl">
+                         <div id="second-card" class="card bg-base-100 shadow-xl">
                             <div class="bg-slate-200 w-9/12 mx-auto mt-8">
                             <figure class="px-10 pt-10">
                               <img src="./images/prod2.png" alt="Shoes" class="rounded-xl" />
@@ -91,14 +91,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 class="card-title text-black text-2xl text-center font-semibold">K. Accessories</h2>
-                              <p class="text-black opacity-50 text-2xl font-normal">25.00 TK</p>
+                              <h2 id="product2-name" class="card-title text-black text-2xl text-center font-semibold">K. Accessories2</h2>
+                              <p id="product2-price" class="text-black opacity-50 text-2xl font-normal">25.00 TK</p>
                               
                             </div>
                           </div>
                         <!-- second Card end-->
                          <!-- third Card start-->
-                         <div class="card bg-base-100 shadow-xl">
+                         <div id="third-card" class="card bg-base-100 shadow-xl">
                             <div class="bg-slate-200 w-9/12 mx-auto mt-8">
                             <figure class="px-10 pt-10">
                               <img src="./images/prod3.png" alt="Shoes" class="rounded-xl" />
@@ -113,8 +113,8 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 class="card-title text-black text-2xl text-center font-semibold">Home Cooker</h2>
-                              <p class="text-black opacity-50 text-2xl font-normal">49.00 TK</p>
+                              <h2 id="product3-name" class="card-title text-black text-2xl text-center font-semibold">Home Cooker</h2>
+                              <p id="product3-price" class="text-black opacity-50 text-2xl font-normal">49.00 TK</p>
                               
                             </div>
                           </div>
@@ -135,7 +135,7 @@
                     <h2 class="text-black text-5xl mb-12">Sportswear</h2>
                     <div class="flex-1 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                         <!-- fourth Card start-->
-                        <div class="card bg-base-100 shadow-xl">
+                        <div id="fourth-card" class="card bg-base-100 shadow-xl">
                             <div class="bg-slate-200 w-9/12 mx-auto mt-8">
                             <figure class="px-10 pt-10">
                               <img src="./images/prod4.png" alt="Shoes" class="rounded-xl" />
@@ -150,14 +150,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 class="card-title text-black text-2xl text-center font-semibold">Sports Back Cap</h2>
-                              <p class="text-black opacity-50 text-2xl font-normal">49.00 TK</p>
+                              <h2 id="product4-name" class="card-title text-black text-2xl text-center font-semibold">Sports Back Cap</h2>
+                              <p id="product4-price" class="text-black opacity-50 text-2xl font-normal">49.00 TK</p>
                               
                             </div>
                           </div>
                         <!-- fourth Card end-->
                          <!-- fifth Card start-->
-                         <div class="card  bg-base-100 shadow-xl">
+                         <div id="fifth-card" class="card  bg-base-100 shadow-xl">
                             <div class="bg-slate-200 w-9/12 mx-auto mt-8">
                             <figure class="px-10 pt-10">
                               <img src="./images/prod5.png" alt="Shoes" class="rounded-xl" />
@@ -172,14 +172,14 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 class="card-title text-black text-2xl text-center font-semibold">Full Jersey Set</h2>
-                              <p class="text-black opacity-50 text-2xl font-normal">69.00 TK</p>
+                              <h2 id="product5-name" class="card-title text-black text-2xl text-center font-semibold">Full Jersey Set</h2>
+                              <p id="product5-price" class="text-black opacity-50 text-2xl font-normal">69.00 TK</p>
                               
                             </div>
                           </div>
                         <!-- fifth Card end-->
                          <!-- six Card start-->
-                         <div class="card  bg-base-100 shadow-xl">
+                         <div id="six-card" class="card  bg-base-100 shadow-xl">
                             <div class="bg-slate-200 w-9/12 mx-auto mt-8">
                             <figure class="px-10 pt-10">
                               <img src="./images/prod6.png" alt="Shoes" class="rounded-xl" />
@@ -194,8 +194,8 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 class="card-title text-black text-2xl text-center font-semibold">Sports cates</h2>
-                              <p class="text-black opacity-50 text-2xl font-normal">159.00 TK</p>
+                              <h2 id="product6-name" class="card-title text-black text-2xl text-center font-semibold">Sports cates</h2>
+                              <p id="product6-price" class="text-black opacity-50 text-2xl font-normal">159.00 TK</p>
                               
                             </div>
                           </div>
@@ -212,13 +212,60 @@
 
         <!-- Buy section -->
       <section class="mt-24">
-        <div>
-            <h2>Have coupon?</h2>
+        <!-- coupon section -->
+        <div class="bg-white p-4">
+            <h2 class=" text-black text-2xl mb-4 font-semibold">Have coupon?</h2>
+            <div class="mb-6">
+            <input id="user-input" class="border p-2" type="text" placeholder="Coupon code">
+            <button id="apply"  class="bg-[#E527B2]  p-2  text-white text-xl">Apply</button>
+          </div>
         </div>
+        <!-- Purchase section-->
+
+        <div class="bg-white p-4 mt-5">
+
+        
+        <div class="mb-5">
+          <ol>
+          <li id="product-show1"></li>
+          <li id="product-show2"></li>
+          <li id="product-show3"></li>
+          <li id="product-show4"></li>
+          <li id="product-show5"></li>
+          <li id="product-show6"></li>
+        </ol>
+        </div>
+        <hr>
+        <div class="mt-5 mb-5">
+          <h2>Total price: <span id="total-price">00.00</span> TK</h2>
+          <h2>Discount: <span id="discount-price">00.00</span> TK</h2>
+          <h2>Total: <span id="total">00.00</span> TK</h2>
+        </div>
+        <hr>
+        
+          <!-- Open the modal using ID.showModal() method -->
+        <button id="modal-button" class="bg-[#E527B2] p-4 rounded-lg text-white text-2xl mt-5 ml-10" onclick="my_modal_5.showModal()">Make Purchase</button>
+        <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+            
+          <form method="dialog" class="modal-box">
+            <!-- <figure><img src="./images/congo.png" alt=""></figure> -->
+          <h3 class="font-bold text-lg">Hello!</h3>
+        <p class="py-4">Press ESC key or click the button below to close</p>
+        <div class="modal-action">
+      <!-- if there is a button in form, it will close the modal -->
+      <button class="btn">Close</button>
+      </div>
+      </form>
+      </dialog>
+    
+      
+      </div>
       </section>  
-    </section>
+    
+    
+  </section>
     </main>
-    <!-- Main Section start-->
+    <!-- Main Section end-->
 
 
 
