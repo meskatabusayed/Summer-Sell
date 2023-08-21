@@ -69,7 +69,7 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 id="product1-name" class="card-title text-black text-2xl text-center font-semibold">K. Accessories</h2>
+                              <h2 id="product1-name" class="card-title text-black text-xs text-center font-semibold">K. Accessories</h2>
                               <p id="product1-price" class="text-black opacity-50 text-2xl font-normal">39.00 TK</p>
                               
                             </div>
@@ -91,7 +91,7 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 id="product2-name" class="card-title text-black text-2xl text-center font-semibold">K. Accessories2</h2>
+                              <h2 id="product2-name" class="card-title text-black text-xs text-center font-semibold">k. Accessories2</h2>
                               <p id="product2-price" class="text-black opacity-50 text-2xl font-normal">25.00 TK</p>
                               
                             </div>
@@ -113,7 +113,7 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 id="product3-name" class="card-title text-black text-2xl text-center font-semibold">Home Cooker</h2>
+                              <h2 id="product3-name" class="card-title text-black text-xs text-center font-semibold">Home Cooker</h2>
                               <p id="product3-price" class="text-black opacity-50 text-2xl font-normal">49.00 TK</p>
                               
                             </div>
@@ -150,7 +150,7 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 id="product4-name" class="card-title text-black text-2xl text-center font-semibold">Sports Back Cap</h2>
+                              <h2 id="product4-name" class="card-title text-black text-xs text-center font-semibold">Sports Back Cap</h2>
                               <p id="product4-price" class="text-black opacity-50 text-2xl font-normal">49.00 TK</p>
                               
                             </div>
@@ -172,7 +172,7 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 id="product5-name" class="card-title text-black text-2xl text-center font-semibold">Full Jersey Set</h2>
+                              <h2 id="product5-name" class="card-title text-black text-xs text-center font-semibold">Full Jersey Set</h2>
                               <p id="product5-price" class="text-black opacity-50 text-2xl font-normal">69.00 TK</p>
                               
                             </div>
@@ -194,7 +194,7 @@
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                                   </div>
-                              <h2 id="product6-name" class="card-title text-black text-2xl text-center font-semibold">Sports cates</h2>
+                              <h2 id="product6-name" class="card-title text-black text-xs text-center font-semibold">Sports cates</h2>
                               <p id="product6-price" class="text-black opacity-50 text-2xl font-normal">159.00 TK</p>
                               
                             </div>
@@ -245,17 +245,27 @@
         
           <!-- Open the modal using ID.showModal() method -->
         <button id="modal-button" class="bg-[#E527B2] p-4 rounded-lg text-white text-2xl mt-5 ml-10" onclick="my_modal_5.showModal()">Make Purchase</button>
+
+        
         <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-            
+          
           <form method="dialog" class="modal-box">
-            <!-- <figure><img src="./images/congo.png" alt=""></figure> -->
-          <h3 class="font-bold text-lg">Hello!</h3>
-        <p class="py-4">Press ESC key or click the button below to close</p>
+            <div class="">
+              <div class="w-40  ml-36">
+                <img src="./images/congo.png" alt="">
+                </div>
+                <br> 
+           <h3 class="font-bold text-3xl text-center">Congratulations</h3>
+           
+        <p class="py-4 text-center">Your Purchase the product</p>
+        </div>
+      
         <div class="modal-action">
+          
       <!-- if there is a button in form, it will close the modal -->
-      <button class="btn">Close</button>
+      <button id="home-btn"  class=" bg-[#E527B2] p-4 rounded-lg text-white text-2xl text-center">Go Home</button>
       </div>
-      </form>
+    </form>
       </dialog>
     
       
@@ -264,7 +274,7 @@
     
     
   </section>
-    </main>
+    </main >
     <!-- Main Section end-->
 
 

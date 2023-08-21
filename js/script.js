@@ -2,7 +2,7 @@
 document.getElementById('first-card').addEventListener('click',function(){
     const product1Name = document.getElementById('product1-name');
     const product1Text = product1Name.innerText;
-    //console.log(product1Text);
+    
     const productShow1 = document.getElementById('product-show1');
     productShow1.innerText = product1Text;
     
@@ -28,7 +28,7 @@ document.getElementById('first-card').addEventListener('click',function(){
 document.getElementById('second-card').addEventListener('click',function(){
     const product2Name = document.getElementById('product2-name');
     const product2Text = product2Name.innerText;
-    //console.log(product1Text);
+    
     const productShow2 = document.getElementById('product-show2');
     productShow2.innerText = product2Text;
 
@@ -52,7 +52,7 @@ document.getElementById('second-card').addEventListener('click',function(){
 document.getElementById('third-card').addEventListener('click',function(){
     const product3Name = document.getElementById('product3-name');
     const product3Text = product3Name.innerText;
-    //console.log(product1Text);
+  
     const productShow3 = document.getElementById('product-show3');
     productShow3.innerText = product3Text;
 
@@ -73,7 +73,7 @@ document.getElementById('third-card').addEventListener('click',function(){
 document.getElementById('fourth-card').addEventListener('click',function(){
     const product4Name = document.getElementById('product4-name');
     const product4Text = product4Name.innerText;
-    //console.log(product1Text);
+    
     const productShow4 = document.getElementById('product-show4');
     productShow4.innerText = product4Text;
 
@@ -132,7 +132,8 @@ document.getElementById('six-card').addEventListener('click',function(){
     totalPrice1.innerText = finalPrice6;
 })
 
-// Coupon Button active
+// Coupon Button 
+
 let applyButton = document.getElementById('apply');
 let userInput = document.getElementById('user-input');
 
@@ -144,7 +145,7 @@ applyButton.addEventListener('click', function(){
     let nowTotalPriceText = nowTotalPrice.innerText;
     let nowTotalPriceNumber = parseFloat(nowTotalPriceText);
     
-    //console.log(nowTotalNumber);
+
     let nowTotalFinalPrice = nowTotalPriceNumber - (nowTotalPriceNumber * .20);
     
 
@@ -172,21 +173,24 @@ applyButton.addEventListener('click', function(){
 
 })
 
+   
 userInput.addEventListener('keyup' , function(){
     if(userInput.value === 'SELL200'){
         applyButton.disabled = false
+        
     }
     else{
         applyButton.disabled = true
+        
     }
 })
+   
 
-
-// modal Section
-let  againTotal = document.getElementById('total');
-let  againTotalText = againTotal.innerText;
-let  againTotalNumber = parseFloat(againTotalText);
-
+// Go Home Button
+let homeBtn = document.getElementById('home-btn');
+homeBtn.addEventListener('click', function(){
+    window.location.href = 'index.html';
+})
 
 
 
